@@ -1,0 +1,29 @@
+
+.cnt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 400px;
+    background-color: azure;
+}
+img{
+    height: 100px;
+    width: 150px;
+    border-radius:60%;
+}
+.img12{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img45{
+    display: flex;
+    margin-top: 100px;
+    justify-content:space-between;
+}

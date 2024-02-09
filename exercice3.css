@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 150px;
+    background-color: rgb(0, 110, 255);
+}
+h1{
+    font-size: 55px;
+    color:white;
+    margin-left: 25px;
+    padding:15px
+}
+ul{
+    display: flex;
+    margin-left: 25px;
+    list-style: none;
+    padding: 5px;
+}
+li{
+    margin-right: 25px;
+    margin-top: 5px;
+    font-size: large;
+}
+.button{
+    background-color: antiquewhite;
+    width: 60px;
+    height: 35px;
+    border-radius: 8%;
+    margin-right: 5px;
+    margin-left: 2px;
+    margin-top:2px
+}
+.cnt{
+    height: 40px;
+    background-color: blue;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+}
+.lesinputs{
+    display: flex;
+    margin-right:15px;
+}
+input{
+    height: 30px;
+    margin-top: 3px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:focus{
+    background-color: blueviolet;
+}

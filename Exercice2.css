@@ -1,0 +1,22 @@
+div{
+    height: 280px;
+    width: 280px;
+    background-color: blue;
+}
+div:hover{
+    transform: translateX(300px)translateY(300px) rotate(35deg);
+}
+
+
+@media (max-width:670px) {
+    div{
+        background-color: red;
+    } 
+}
+@media (max-width:1150px and min-width:670px){
+    div{
+        background-color: green;
+    }
+}
+
+

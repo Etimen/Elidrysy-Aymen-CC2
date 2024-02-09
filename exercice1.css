@@ -1,0 +1,19 @@
+/* Exercice 1 */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+article > h2 {
+    color: green;
+}
+h2+p {
+    color: blue;
+    font-style: italic;
+}
+h1:first-of-type{
+    text-shadow: 10px red;
+}
+img:last-child{
+    border-radius: 40%;
+}

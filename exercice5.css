@@ -1,0 +1,22 @@
+#boite{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: redbox ;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite
+    }
+@keyframes redbox{
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+    
+    
+}
